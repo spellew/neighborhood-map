@@ -207,12 +207,12 @@ const displayLocations = (locations, fallback) => {
       }
     };
 
-    self.setPopupContent = (location) => {
+    self.setPopupContent = (location) => (
       location.photo ? `<figure>
           <img class="photo-popup" src="${location.photo}" alt="${location.name}" />
           <figcaption>${location.name}</figcaption>
         </figure>` : `<figcaption>${location.name}</figcaption>`
-    }
+    );
 
     // This function will bounce the marker.
     self.handleMarkerMouseOver = (location) => {
