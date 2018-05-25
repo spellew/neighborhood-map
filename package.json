@@ -17,5 +17,8 @@
     "merge-stream": "^1.0.1",
     "ngrok": "^3.0.1",
     "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d ./dist -b gh-pages"
   }
 }

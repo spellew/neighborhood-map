@@ -190,7 +190,7 @@ body {
     overflow-y: scroll;
   }
   .hamburger {
-    display: none;
+    display: none !important;
   }
   .header {
     font-size: 3.6rem;
